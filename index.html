@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.d1{
+border: 10px solid blue ;
+border-radius: 10px;
+width: 50px;
+}
+#l1,#l2,#l3{
+border: 2px solid ;
+width: 30px;
+margin-left: 6px;
+}
+.d2{
+display: none;
+border: 2px dashed ;
+margin-left: 50px;
+margin-top:30px;
+width: 110px;
+
+
+}
+.d1:active ~ .d2
+
+{
+display: inline-block;
+
+}
+
+</style>
+<body>
+   <div class="d1">
+<p id="l1"></p>
+<p id="l2"></p>
+<p id="l3"></p>
+
+
+</div>
+   <div class="d2">
+    <p>HOME</p>
+    <p>CONTACT US</p>
+    <p>LOGIN</p>
+    <p>SIGN UP</p>
+
+
+
+   </div>
+</body>
+</html>
